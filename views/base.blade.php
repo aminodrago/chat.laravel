@@ -25,6 +25,6 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.0.1/semantic.min.js"></script>
-        <script src="chat.js"></script>
+        @yield('scripts')
     </body>
 </html>

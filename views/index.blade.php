@@ -11,3 +11,6 @@
 	<p><button id="send" class="ui tiny green button">send</button></p>
 </div>
 @stop
+@section('scripts')
+<script src="chat.js"></script>
+@stop
