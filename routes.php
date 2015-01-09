@@ -12,4 +12,5 @@
 */
 Route::get('login', 'LoginController@showLoginPage');
 Route::post('login', 'LoginController@makeLogin');
+Route::get('logout', 'LoginController@logout');
 Route::controller('/', "ChatController");
